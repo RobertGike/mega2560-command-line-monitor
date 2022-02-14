@@ -1,5 +1,5 @@
 //------------------------------------------------------------------------------
-// Teensy 4.0 Command Line Monitor
+// Arduino Mega2560 Command Line Monitor
 //
 // Abstractions required to build the program to run on the
 // development machine.
