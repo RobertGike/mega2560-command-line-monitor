@@ -1,0 +1,6 @@
+*.log
+*.swp
+build/*
+src/mega2560/*
+tags
+

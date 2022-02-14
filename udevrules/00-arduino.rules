@@ -1,0 +1,16 @@
+#-------------------------------------------------------------------------------
+# UDEV rules for Arduino boards
+#
+# usb 1-4: new full-speed USB device number 6 using xhci_hcd
+# usb 1-4: New USB device found, idVendor=2341, idProduct=0042, bcdDevice= 0.01
+# usb 1-4: New USB device strings: Mfr=1, Product=2, SerialNumber=220
+# usb 1-4: Manufacturer: Arduino (www.arduino.cc)
+# usb 1-4: SerialNumber: 75833353834351F01240
+# cdc_acm 1-4:1.0: ttyACM1: USB ACM device
+#
+# After this file is installed, disconnect and reconnect the board.
+#-------------------------------------------------------------------------------
+
+# Arduino Mega2560
+SUBSYSTEM=="tty", ATTRS{idVendor}=="2341", ATTRS{idProduct}=="0042", ATTRS{serial}=="75833353834351F01240", SYMLINK+="ArduinoMega2560"
+
