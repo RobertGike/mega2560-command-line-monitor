@@ -6,7 +6,7 @@
 BAUD="115200"
 TTY="/dev/ArduinoMega2560"
 
-# wait for the teensy serial device to appear
+# wait for the mega2560 serial device to appear
 while [[ ! -e $TTY ]]; do
   echo "Waiting for $TTY ..."
   sleep 2.0s

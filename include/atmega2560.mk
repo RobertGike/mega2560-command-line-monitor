@@ -18,7 +18,7 @@
 # limitations under the License.
 #-------------------------------------------------------------------------------
 
-# use the Arduino arm compiler and teensy support files
+# use the Arduino compiler and support files
 ARDUINOPATH := $(HOME)/arduino-1.8.19
 
 # Arduino include paths
@@ -58,6 +58,4 @@ CPP_FLAGS := $(F_CPU) $(F_COM) $(F_MCU) $(F_CPP) $(F_OPT)
 C_FLAGS   := $(F_CPU) $(F_COM) $(F_MCU) $(F_C)   $(F_OPT)
 S_FLAGS   := $(F_CPU) $(F_COM) $(F_MCU) $(F_S)
 LD_FLAGS  := $(F_LD)
-
-LINKER_LD := imxrt1062.ld
 

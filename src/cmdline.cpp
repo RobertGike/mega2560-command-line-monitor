@@ -441,7 +441,7 @@ void help() {
     }
     Serial.println("");
     Serial.println("Decimal number: 1234, -56");
-    Serial.println("    Hex number: 0x1234abcd");
+    Serial.println("    Hex number: 0x12ab");
     Serial.println("  Octal number: 0377");
     Serial.println("     Character: 'A");
 }

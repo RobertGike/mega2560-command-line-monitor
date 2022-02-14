@@ -51,7 +51,7 @@ flash     - program the mega2560 board
 hosttest  - build the code for test on PC
 megalinks - construct mega2560 source file links
 ```
-Before building the monitor program construct the required soft links to the teensy source code by executing command:
+Before building the monitor program construct the required soft links to the Arduino source files by executing command:
 ```
 make megalinks
 ```
